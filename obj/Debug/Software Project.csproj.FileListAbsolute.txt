@@ -1,0 +1,26 @@
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\bin\Debug\login and Register System.exe.config
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\bin\Debug\login and Register System.exe
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\bin\Debug\login and Register System.pdb
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software Project.csproj.AssemblyReference.cache
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software_Project.frmRegister.resources
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software_Project.frmLogin.resources
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software_Project.Properties.Resources.resources
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software Project.csproj.GenerateResource.cache
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software Project.csproj.CoreCompileInputs.cache
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\login and Register System.exe
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\login and Register System.pdb
+C:\Users\boggs\OneDrive\Documents\Visual Studio Projects\Project\Software Project\obj\Debug\Software_Project.dashboard.resources
+C:\Users\anime\Downloads\Software_Project\Software Project\bin\Debug\login and Register System.exe.config
+C:\Users\anime\Downloads\Software_Project\Software Project\bin\Debug\login and Register System.exe
+C:\Users\anime\Downloads\Software_Project\Software Project\bin\Debug\login and Register System.pdb
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software Project.csproj.AssemblyReference.cache
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software_Project.dashboard.resources
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software_Project.frmRegister.resources
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software_Project.frmLogin.resources
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software_Project.Properties.Resources.resources
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software Project.csproj.GenerateResource.cache
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\Software Project.csproj.CoreCompileInputs.cache
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\login and Register System.exe
+C:\Users\anime\Downloads\Software_Project\Software Project\obj\Debug\login and Register System.pdb
