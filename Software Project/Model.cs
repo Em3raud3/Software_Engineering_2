@@ -125,33 +125,24 @@ namespace Software_Project
         public void databaseCaught() //In Progress
         {
             con.Open();
-            string unqiueIDCheck = "SELECT * FROM User_Caught WHERE ID= '" + dashboard.selectedID + "'";
+            string unqiueIDCheck = "SELECT * FROM User_Caught WHERE ID= '" + dashboard.selectedID + "' and username= '" + frmLogin.name + "'";
             cmd = new OleDbCommand(unqiueIDCheck, con);
-            //OleDbDataReader dr = cmd.ExecuteReader();
-            dash.messageShow(frmLogin.name + " " + dashboard.selectedID);
-            con.Close(); //- Remove when testing is over
-
-            //------------------
-
-            //if (dr.Read() == true)
-            //{
-            //    //Pokemon is already in user caught list
-            //    dash.messageShow("Pokemon already in caught list");
-            //    con.Close();
-                
-            //}
-            //else  ///Places Pokemon in User Caught List
-            //{
-            //    string insertPokemon = "INSERT INTO User_Caught VALUES ('" + frmLogin.name + "','" + dashboard.selectedID + "')";
-            //    cmd = new OleDbCommand(insertPokemon, con);
-            //    cmd.ExecuteNonQuery();
-            //    con.Close();
-            //    frmRegister.TxtUsername.Text = "";
-            //    frmRegister.TxtPassword.Text = "";
-            //    frmRegister.TxtComPassword.Text = "";
-            //    frmRegister.frmRegis.messageCallsForUserPass(3);
-
-            //}
+            OleDbDataReader dr = cmd.ExecuteReader();
+            if (dr.Read() == true)
+            {
+                //Pokemon is already in user caught list
+                dash.messageShow("Pokemon already in caught list");
+                con.Close();
+            }
+           
+            else  ///Places Pokemon in User Caught List
+            {
+                string insertPokemon = "INSERT INTO User_Caught VALUES ('" + frmLogin.name + "','" + dashboard.selectedID + "')";
+                cmd = new OleDbCommand(insertPokemon, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                dash.messageShow("Pokemon has been added to list!");
+            }
 
 
 

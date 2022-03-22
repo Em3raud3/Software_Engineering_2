@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
+    <Compile Include="CustomCaughtButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomCaughtButton.Designer.cs">
+      <DependentUpon>CustomCaughtButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model.cs" />
     <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
@@ -68,6 +74,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomCaughtButton.resx">
+      <DependentUpon>CustomCaughtButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>

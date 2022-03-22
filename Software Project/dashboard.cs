@@ -19,7 +19,7 @@ namespace Software_Project
         //string selectedID = ""; //When user selects Pokemon the ID is saved
         public static Label Label1;
         Model model = new Model();
-
+        public static CustomCaughtButton cusCaughtButton = new CustomCaughtButton();
         public dashboard()
         {
             InitializeComponent();
@@ -39,7 +39,8 @@ namespace Software_Project
         private void button1_Click(object sender, EventArgs e)
         {
             messageShow(frmLogin.name + " " + selectedID);
-            model.databaseCaught();
+            
+            //model.databaseCaught();
             
 
 
